@@ -1,9 +1,6 @@
 # According to
 # https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
 
-# Needs Workflow permissions: Read and write permissions
-# set in Repo => Actions => General
-
 name: Create and publish a Docker image
 
 on:
