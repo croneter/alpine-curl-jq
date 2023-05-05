@@ -1,9 +1,10 @@
-# Alpine Docker Image with curl, jq, bash
-Very slim image that provides bash-access to both `curl` and `jq`. Image is automatically built on a daily basis. 
+# Alpine Docker Image with curl, jq, postgres-client, bash
+Very slim image that provides bash-access to both `curl` and `jq` as well as the postgres-client. Image is automatically built on a daily basis. 
 
 ### Use Cases:
 * Quick `curl` during multi step build config
 * `curl` any api and easily deal with the api's responses if they are in a JSON format. My use case: update the dynamic DNS configuration of Cloudflare
+* Automate backups of PostgreSQL-databases
 
 ### Usage
 Pull docker image `docker pull ghcr.io/croneter/alpine-curl-jq`. Tags/versions you can use:
