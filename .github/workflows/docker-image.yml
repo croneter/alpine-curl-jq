@@ -10,7 +10,7 @@ on:
     branches: [ "master" ]
   schedule:
     # Runs every day at 3:17 am
-    - cron:  '17 3 * * *'
+    - cron:  '51 5 * * *'
 
 env:
   REGISTRY: ghcr.io
