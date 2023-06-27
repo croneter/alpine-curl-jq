@@ -1,5 +1,5 @@
 # Alpine Docker Image with curl, jq, postgres-client, bash
-Very slim image that provides bash-access to both `curl` and `jq` as well as the postgres-client. Image is automatically built on a daily basis. 
+Very slim image that provides bash-access to both `curl` and `jq` as well as the `postgres-client` and `tzdata` to set a timezone via the environment variable `TZ=${timezone}`. Image is automatically built on a daily basis. 
 
 ### Use Cases:
 * Quick `curl` during multi step build config
